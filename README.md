@@ -8,7 +8,7 @@ Externalize session information to Redis using Spring projects
 
 ## What for?
 
-When working on a multi-instance web application, application state must be all externalized from the web servers. Users' session information is commonly stored in-memory by the web servers, such as Wildfly or Apache Tomcat.
+When working on a multi-instance web application, application state must be all externalized from the web servers. Users' session information are by default stored in-memory by the web servers, such as Wildfly or Apache Tomcat.
 
 In order to resolve this matter the architecture demo implemented here stores session information on [Redis](https://redis.io/) (follow the link for more information) so when a web server is down others have access to the sessions this server was handling requests from.
 
