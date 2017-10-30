@@ -13,10 +13,9 @@ public class IndexController {
 	public String index(HttpServletRequest request, Model model) {
 		Integer pageViews = 1;
 		if (request.getSession().getAttribute("pageViews") != null) {
-			pageViews += Integer.valueOf(request.getSession().getAttribute("pageViews").toString());
+			pageViews += (Integer) request.getSession().getAttribute("pageViews");
 		}
 		request.getSession().setAttribute("pageViews", pageViews);
-		
 		model.addAttribute("pageViews", pageViews);
 		return "index";
 	}
