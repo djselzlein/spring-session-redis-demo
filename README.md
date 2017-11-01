@@ -12,6 +12,8 @@ When working on a multi-instance web application, application state must be all 
 
 In order to resolve this matter the architecture demo implemented here stores session information on [Redis](https://redis.io/) (follow the link for more information) so when a web server is down others have access to the sessions this server was handling requests from.
 
+See [this blog post](https://selzlein.github.io/2017/10/30/spring-security-session-redis/) for further information.
+
 ## Setup
 
 Before running this demo, make sure you have Redis running.
