@@ -1,6 +1,6 @@
-# Spring Session Redis Demo &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Spring%20Session%20With%20Redis&url=https://github.com/selzlein/spring-session-redis-demo&hashtags=spring,spring-session,redis)
+# Spring Session Redis Demo &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Spring%20Session%20With%20Redis&url=https://github.com/djselzlein/spring-session-redis-demo&hashtags=spring,spring-session,redis)
 
-[![Build Status](https://img.shields.io/travis/selzlein/spring-session-redis-demo.svg?style=flat-square)](https://travis-ci.org/selzlein/spring-session-redis-demo)
+[![Build Status](https://img.shields.io/travis/djselzlein/spring-session-redis-demo.svg?style=flat-square)](https://travis-ci.org/djselzlein/spring-session-redis-demo)
 
 Externalize session information to Redis using Spring projects
 
